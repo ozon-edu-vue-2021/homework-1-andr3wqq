@@ -53,16 +53,16 @@
             },
             methods: {
                 incrementCounterHandler() {
-                    return this.counter += 1;
+                    this.counter += 1;
                 },
                 decrementCounterHandler() {
-                    return this.counter -= 1;
+                    this.counter -= 1;
                 },
                 incrementStepHandler() {
-                    return this.step += 2;
+                    this.step += 2;
                 },
                 decrementStepHandler() {
-                    return this.step -= 2;
+                    this.step -= 2;
                 },
                 //...
             },
@@ -88,16 +88,16 @@
         };
 
         const incrementCounterHandler = function () {
-            return data.counter += 1;
+            data.counter += 1;
         };
         const decrementCounterHandler = function () {
-            return data.counter -= 1;
+            data.counter -= 1;
         };
         const incrementStepHandler = function () {
-            return data.step += 2;
+            data.step += 2;
         };
         const decrementStepHandler = function () {
-            return data.step -= 2;
+            data.step -= 2;
         };
         //...
         const getSum = function () {
